@@ -47,7 +47,6 @@ public class ContatoController {
 
         // Faz a conversão do DTO de entrada para Entity
         BeanUtils.copyProperties(contatoInput, contato);
-
         Contato c = cadastroContatoService.salvar(contato);
 
         // Cria um objeto DTO de saída
