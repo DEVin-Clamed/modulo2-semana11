@@ -21,18 +21,18 @@ public class ContatoController {
 
     @PostMapping
     public ResponseEntity<ContatoOutput> cadastrar(@RequestBody ContatoInput contatoInput){
-        // crio um objeto do tipo Entity
+        // cria um objeto do tipo Entity
         Contato contato = new Contato();
 
-        // Faz a conversão do DTO de entrada para o objeto Entity
+        // Faz a conversão do DTO de entrada para Entity
         BeanUtils.copyProperties(contatoInput, contato);
 
         Contato c = cadastroContatoService.salvar(contato);
 
-        // Crio um objeto DTO de saída
+        // Cria um objeto DTO de saída
         ContatoOutput co = new ContatoOutput();
 
-        //Faz a converão do objeto do tipo Entity para DTO de saída
+        //Faz a conversão da Entity para DTO de saída
         BeanUtils.copyProperties(c, co);
 
         // Montamos a resposta da requisição
@@ -42,18 +42,18 @@ public class ContatoController {
 
     @PutMapping
     public ResponseEntity<ContatoOutput> atualizar(@RequestBody ContatoInput contatoInput){
-        // crio um objeto do tipo Entity
+        // cria um objeto Entity
         Contato contato = new Contato();
 
-        // Faz a conversão do DTO de entrada para o objeto Entity
+        // Faz a conversão do DTO de entrada para Entity
         BeanUtils.copyProperties(contatoInput, contato);
 
         Contato c = cadastroContatoService.salvar(contato);
 
-        // Crio um objeto DTO de saída
+        // Cria um objeto DTO de saída
         ContatoOutput co = new ContatoOutput();
 
-        //Faz a converão do objeto do tipo Entity para DTO de saída
+        //Faz a conversão de Entity para DTO de saída
         BeanUtils.copyProperties(c, co);
 
         // Montamos a resposta da requisição
