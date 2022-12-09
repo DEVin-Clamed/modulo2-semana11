@@ -1,5 +1,6 @@
 package com.clamed.dto;
 
+import com.clamed.model.Grupo;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -18,4 +19,6 @@ public class ContatoOutput {
     private String telefoneTrabalho;
 
     private String email;
+
+    private Grupo grupo;
 }

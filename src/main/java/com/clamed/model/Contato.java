@@ -37,7 +37,11 @@ public class Contato implements Serializable {
     @Column(length = 45)
     private String telefoneTrabalho;
 
-    private Long idGrupo;
+    @OneToOne
+    @JoinColumn(name = "idGrupo", referencedColumnName = "id", foreignKey = @ForeignKey(name = "fk_grupo"))
+    private Grupo grupo;
+
+
 
 
 }
