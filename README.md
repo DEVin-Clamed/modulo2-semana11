@@ -41,7 +41,7 @@ Tópicos abordados em aulas anteriores foram revisados e exercitados ao longo do
 - Logging: 
     - configuração de appenders e layout
     - registro de logging com Logback, SLF4J local, e
-    - usando serviço da Loglly para registro de logging na nuvem
+    - usando serviço da [Loggly](https://www.loggly.com/) para registro de logging na nuvem
 - Debug: 
     - conhecendo as ferramentas de debug na Intellij IDEA
 </p>
