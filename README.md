@@ -2,10 +2,9 @@
 
 <p align="justify"> 
 Neste repositório está o projeto de uma RESTfull API desenvovido no Módulo 2 da Semana 11 com a Turma DEVinClamed.
-Nesta semana foram abordados os tópicos sobre (i) Spring: Deploy, Logging e Debug, para colocar em prática o projeto desenvolvido contempla a 
-implentação de uma RESTfull API que simula uma agenda de contatos.
+Nesta semana foram abordados os tópicos sobre Spring: (i) Deploy, (ii) Logging e (iii) Debug, para colocar em prática o projeto desenvolvido contempla a implentação de uma RESTfull API que simula uma agenda de contatos.
 
-Tópicos abardados em aulas anteriores forão revisados e exercitados ao longo do desenvolvimento do projeto, que são ele:
+Tópicos abordados em aulas anteriores foram revisados e exercitados ao longo do desenvolvimento do projeto, que são ele:
 
 - Banco de dados: 
    - elaboração do modelo lógico relacional do domínio do projeto
@@ -14,7 +13,7 @@ Tópicos abardados em aulas anteriores forão revisados e exercitados ao longo d
    
 - Spring Boot: 
    - criação do pojeto utilizando o repositório central do maven, 
-   - injeção de dependências
+   - injeção de dependências.
    
 - Spring Data: 
    - mapeamento objeto relacional com Hibernate
@@ -28,20 +27,20 @@ Tópicos abardados em aulas anteriores forão revisados e exercitados ao longo d
     
 - Operações CRUD: 
     - Implementação de métodos para interceptação de requisições HTTP: 
-     - POST: para inserção de recurso, 
-     - GET: obteção de recursos, 
-     - PUT: atualização de recursos, 
-     - DELETE: deletar recursos.
+      - POST: para inserção de recurso, 
+      - GET: obteção de recursos, 
+      - PUT: atualização de recursos, 
+      - DELETE: deletar recursos.
      
 - Deploy: 
-    - abordando as estratégias de deploy,
+    - estratégias,
     - empacotamento do projeto com maven para deploy em servidor local e na nuvem,
     - uma visão geral do Docker,
-    - criação da imagem do projeto.
+    - criação da imagem docker do projeto.
     
 - Logging: 
     - configuração de appenders e layout
-    - registro de logging com Logback e SLF4J local, e
+    - registro de logging com Logback, SLF4J local, e
     - usando serviço da Loglly para registro de logging na nuvem
 - Debug: 
     - conhecendo as ferramentas de debug na Intellij IDEA
