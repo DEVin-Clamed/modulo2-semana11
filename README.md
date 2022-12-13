@@ -1,9 +1,9 @@
 # modulo2-semana11
 
 <p align="justify"> 
-Neste repositório está o projeto de uma REST APIfull desenvovido no Módulo 2 da Semana 11 com a Turma DEVinClamed.
+Neste repositório está o projeto de uma RESTfull API desenvovido no Módulo 2 da Semana 11 com a Turma DEVinClamed.
 Nesta semana foram abordados os tópicos sobre (i) Spring: Deploy, Logging e Debug, para colocar em prática o projeto desenvolvido contempla a 
-implentação de uma API RESTfull que simula uma agenda de contatos.
+implentação de uma RESTfull API que simula uma agenda de contatos.
 
 Tópicos abardados em aulas anteriores forão revisados e exercitados ao longo do desenvolvimento do projeto, que são ele:
 
